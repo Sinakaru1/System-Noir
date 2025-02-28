@@ -1,18 +1,17 @@
-# Xol Toolhead Bill of Materials (BOM)
-Read **ALL** of the sections below to understand your hardware requirements, there's some bits here that aren't on a standard Voron build BOM.
-The chances are that something was missed, but if you have a good mix of M2, M2.5 and M3 hardware you'll probably still end up with a working printer.
+# System: Noir Bill of Materials (BOM)
+This is not a complete list, but will give you an idea of where to find certain things. 
 
-## Carriage
+## Frame
 
-#### Required Hardware
+#### Extrusions (I source mine from Misumi)
 | Qty | Item                                          | Notes                                                                                     |
 | --- | --------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | 5   | M3 Heatset Insert                             | Standard Voron spec: 5mm Outer Diameter x 4mm Length                                      |
 | 6   | M3 x 8 SHCS                                   | 4x MGN carriage mounting, 2x MGN carriage clamps                                          |
 | 4   | M3 Hex Nut                                    | 2x MGN carriage clamps, 2x toolhead mounting                                              |
-| 2   | M3 DIN9021 flat washer  | MGN Carriage clamping. `Alternatively use M3 + M5 stacked washers`                                                                  |
+| 2   | M3 DIN9021 flat washer  | MGN Carriage clamping. `Alternatively use M3 + M5 stacked washers`                                              |
 | 2   | M3 x 30 Pin                                   | Belt mounting system                                                                      |
-| 2   | Hollow metal tube: 4mm OD, 3.1 to 3.2mm ID,  22 to 22.5mm length.                   | 4mm OD, 0.45mm wall width (0.4mm wall width is OK). Stainless steel, brass, aluminium all tested OK. Used for belt mounting system.`4mm OD/3mm ID PTFE tube can be used temporarily` |
+| 2   | Hollow metal tube: 4mm OD, 3.1 to 3.2mm ID,  22 to 22.5mm length.                   | 4mm OD, 0                                           |
 | 2   | 1.8mm wide cable tie or 0.5mm solid core wire | To attach M4 tube to belt clips as per Archetype clips                                    |
 
 #### Probe/Extruder Hardware

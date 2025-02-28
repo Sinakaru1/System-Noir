@@ -13,6 +13,7 @@ Project lead: [Sinakaru1](https://github.com/Sinakaru1)
 All of the documentation has been moved to /docs to help keep the repo organised (crazy I know) and enable future things.
 * [Full README](docs/README.md)
   * [Bill of Materials (BOM)](docs/BOM.md)
+  * [More Images of Completed Build!](docs/assets/images)
 
 
 This work is licensed under a

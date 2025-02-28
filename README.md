@@ -1,9 +1,7 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 # System: Noir
-Xol Toolhead is the evolution of 'Mantis Xol 2' (<https://github.com/Armchair-Engineering/Mantis-Xol>).<br/>
-Aimed at modularity and quality of life improvements for installation and serviceability.<br/>
-We have left the mantis carriage behind, and thus are now just Xol sans Mantis. Don't worry, it's still a bit ugly. We wouldn't fix that.
+This is a small project of mine to create a version of the Voron Trident that stayed warm, looked cool, and had plenty of motion capability for fast printing. It's not perfect, but I hope it gives you some inspiration for your own projects!
 
 Project lead: [Sinakaru1](https://github.com/Sinakaru1)
 
@@ -13,9 +11,6 @@ Project lead: [Sinakaru1](https://github.com/Sinakaru1)
 All of the documentation has been moved to /docs to help keep the repo organised (crazy I know) and enable future things.
 * [Full README](docs/README.md)
   * [Bill of Materials (BOM)](docs/BOM.md)
-  * [Printing parts](docs/printing.md)
-  * [Carriage assembly](docs/xol_carriage_assembly.md)
-  * [Toolhead assembly](docs/toolhead_assembly.md)
 
 
 This work is licensed under a

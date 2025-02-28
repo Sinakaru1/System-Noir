@@ -5,7 +5,9 @@ This is a small project of mine to create a version of the Voron Trident that st
 
 Project lead: [Sinakaru1](https://github.com/Sinakaru1)
 
-<img src='docs/assets/images/Xol-Toolhead.both.png' width=100% />
+<img src='docs/assets/images/Render_1.png' width=100% />
+<img src='docs/assets/images/Render_2.png' width=50% /> 
+<img src='docs/assets/images/Render_3.png' width=80% />
 
 ## Go to the /docs
 All of the documentation has been moved to /docs to help keep the repo organised (crazy I know) and enable future things.

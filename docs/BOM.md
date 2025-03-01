@@ -1,62 +1,54 @@
 # System: Noir Bill of Materials (BOM)
 This is not a complete list, but will give you an idea of where to find certain things. 
 
-## Frame
+## FRAME
 
-#### Extrusions (I source mine from Misumi)
-| Qty | Item                                          | Notes                                                                                     |
-| --- | --------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 5   | M3 Heatset Insert                             | Standard Voron spec: 5mm Outer Diameter x 4mm Length                                      |
-| 6   | M3 x 8 SHCS                                   | 4x MGN carriage mounting, 2x MGN carriage clamps                                          |
-| 4   | M3 Hex Nut                                    | 2x MGN carriage clamps, 2x toolhead mounting                                              |
-| 2   | M3 DIN9021 flat washer  | MGN Carriage clamping. `Alternatively use M3 + M5 stacked washers`                                              |
-| 2   | M3 x 30 Pin                                   | Belt mounting system                                                                      |
-| 2   | Hollow metal tube: 4mm OD, 3.1 to 3.2mm ID,  22 to 22.5mm length.                   | 4mm OD, 0                                           |
-| 2   | 1.8mm wide cable tie or 0.5mm solid core wire | To attach M4 tube to belt clips as per Archetype clips                                    |
+#### Extrusions
+| QTY | ITEM                                  | NOTES                                                               | LOCATION                                   |
+| --- | ------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------ |
+| 2   | 4040 Extrusion, 600mm length          | Similar to Misumi PN# HFS5-4040-600                                 | Rear vertical extrusions                   |
+| 8   | 2040 Extrusion, 420mm length          | Similar to Misumi PN# HFS5-2040-420                                 | Side and rear horizontal extrusions        |
+| 2   | 2040 Extrusion, 600mm length          | Similar to Misumi PN# HFS5-2040-600                                 | Front vertical extrusions                  |
+| 6   | 2020 Extrusion, 420mm length          | Similar to Misumi PN# HFS5-2020-420                                 | Front horizontal extrusions                |
+| 1   | 2020 Extrusion, 330mm length          | Similar to Misumi PN# HFS5-2020-330-LTP (from original Trident kit) | Rear center support                        |
+| 1   | 2020 Extrusion, 290mm length          | Similar to Misumi PN# HFS5-2020-290 (from original Trident kit)     | Rear horizontal extrusion (between motors) |
+| 2   | 2020 Extrusion, 460mm length          | Similar to Misumi PN# HFS5-2020-460                                 | Electronics bay support                    |
+| 1   | 2020 Extrusion, 420mm length          | Similar to Misumi PN# HFS5-2020-420 (from original Trident kit)     | Heated bed support                         |
+| 1   | 2020 Extrusion, 280mm length          | Similar to Misumi PN# HFS5-2020-280 (from original Trident kit)     | Heated bed support                         |
 
-#### Probe/Extruder Hardware
-Follow probe or extruder instructions for required hardware.
+#### Panels
+| QTY | ITEM                                  | NOTES                                       | LOCATION                                       |
+| --- | ------------------------------------- | ------------------------------------------- | ---------------------------------------------- |
+| 2   | 510mm x 420mm Polycarbonate panel     | 3mm thick                                   | Side (outer) panels                            |
+| 2   | 420mm x 110mm Polycarbonate panel     | 3mm thick                                   | Side (inner) panels                            |
+| 1   | 510mm x 420mm Black ABS panel         | 3mm thick                                   | Rear panel                                     |
+| 1   | 390mm x 390mm Black ABS panel         | 3mm thick                                   | Top (inner) panel                              |
+| 1   | 420mm x 420mm Black ABS panel         | 3mm thick                                   | Top (outer) panel                              |
+| 1   | 500mm x 480mm Black ABS panel         | 3mm thick                                   | Bottom panel (under printer)                   |
+| 1   | 419mm x 419mm Black ABS panel         | 3mm thick (from original Trident kit)       | Middle panel (between electronics and chamber) |
 
-`* If using Voron Design TAP RC8+ it is recommended to replace the two M3 x 50 SHCS with M3 x 50 BHCS to improve build plate clearance.`
+## DOOR
 
-## Toolhead
+#### Extrusions
+| QTY | ITEM                                  | NOTES                                            | LOCATION                    |
+| --- | ------------------------------------- | ------------------------------------------------ | --------------------------- |
+| 2   | 2020 Extrusion, 550mm length          | Similar to Misumi PN# HFS5-2020-550              | Door vertical extrusions    |
+| 2   | 2020 Extrusion, 460mm length          | Similar to Misumi PN# HFS5-2040-460              | Door horizontal extrusions  |
 
-#### Required Hardware
-| Qty | Item                    | Notes                                                                                                                               |
-| --- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 3*  | M3 Heatset Insert       | Standard Voron spec: 5mm Outer Diameter x 4mm Length <br/> * Extruder Mount `3rd heatset for extruders with additional front screw` |
-| 3   | M3 Hex Nut              | 2x Extruder Mount <br/>1x Hotend Mount mount below front of Extruder Block                                                                                         |
-| 2   | M3 x 20 Metal Stand-off | CAN/EBB Mounting                                                                                                                    |
-| 2   | M3 x [20][8] SHCS       | Extruder to HE Mount. Length varies depending on extruder used <br/> `M3x20 used for Sherpa-Mini, M3x8 used for most others`        |
-| 6   | M3 x 16 SHCS            | 2x Through Extruder and hotend mounts to carriage <br />2x Extruder stepper to standoff <br/>2x CAN/EBB36 mount                     |
-| 7   | M3 x 8 SHCS             | 2x HE Mount feet, 2x HE Adapter to carriage, 2x MGN carriage clamping, 1x EBB Mount                                                 |
-| 2*  | M3 x 6 BHCS             | Extruder Mount to Hotend Mount at front. `*additional 1 if using extruder with front faceplate that includes extra point.`          |
-| 4   | M2.5 x 16 SHCS          | HE Fan                                                                                                                       |
-| 4   | M2.5 x 8 SHCS           | Part cooling fan mounting                                                                                                           |
-| 4*  | M2.5 x 8 SHCS           | *additional to above if using XolPAP ducts                                                                                          |
-| 1   | Short PTFE tube         | Between extruder and hotend                                                                                                         |
+#### Panels
+| QTY | ITEM                                  | NOTES                    | LOCATION               |
+| --- | ------------------------------------- | ------------------------ | ---------------------- |
+| 1   | 520mm x 470mm Polycarbonate panel     | 3mm thick                | Door (inner) panel     |
+| 1   | 510mm x 420mm Polycarbonate panel     | 3mm thick                | Door (outer) panel     |
 
-#### Fans
-> :information_source: **Understand your electronics and voltages** <br/>
-> Do you have the correct voltage at your toolhead or will you need a converter?<br/>
-> If using the _recommended_ parts you need 5v, 12v and 24v at the toolhead.
+## TOOLHEAD
 
-| Qty | Fan Type                                       | Recommended Fan                                                                                                                                                                                                                                                                                       | Notes                                                                                                                                                                                                                                                                                      |
-| --- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | 2510 Axial Fan <br/> Hotend Fan                | Delta Electronics 5v <br/> ASB02505SHA-AY6B                                                                                                                                                                                                                                                           | <a href="https://www.digikey.com/en/products/detail/delta-electronics/ASB02505SHA-AY6B/7491489">Purchase Link</a> <br/> `This fan is highly recommended in heated chambers`<br/>`No other 2510 fan comes close to the performance`<br/>`of this fan.`                                      |
-| 2   | 4010 Blower Fan <br/> Part Cooling Fans        | Delta Electronics <br/> BFB0412HHA-A (12V) <a href="https://www.digikey.com/en/products/detail/delta-electronics/BFB0412HHA-A/2560487">Purchase Link</a> <br/> BFB0405HHA-A (5V)  <a href="https://www.digikey.com/en/products/detail/delta-electronics/BFB0405HHA-A/1014444">Purchase Link</a> <br/> | `24v GDStime fans are fine and many have used them successfully.`<br/>`The Deltas, however, have better durability`<br/>`in heated chambers and always hit their performance claims.`<br/>`It's not uncommon for other fan manufacturers`<br/>`to overstate performance, GDStime included.` |
-| 1*  | 7040 or other suitable CPAP remote cooling fan |                                                                                                                                                                                                                                                                                                       | XolPAP only                                                                                                                                                                                                                                                                                |
-| 1*  | 15mm ID CPAP flexible hose                     |                                                                                                                                                                                                                                                                                                       | XolPAP only                                                                                                                                                                                                                                                                                |
+* [Xol-Toolhead by Armchair Heavy Industries](https://github.com/Armchair-Heavy-Industries/Xol-Toolhead)
+* [Dragon Ace Volcano Hotend with PT1000 Thermistor](https://trianglelab.net/products/dragon-ace%E2%84%A2-hotend?VariantsId=12007)
+* [Cartographer v3 Probe](https://cartographer3d.com/products/cartographer-probe-v3-with-adxl345-standard)
+* [WristWatch G2 Extruder](https://github.com/tetsu97/WristWatch-G2-Extruder)
 
-Additional notes: Delta's 5V and 12V variants provide the same airflow, pick whichever suits your setup better. If you only have 24V available, you can use a 24V-12V buck converter or run an additional wire in your umbilical for 12v+.
+## GANTRY AND MOTION
 
-#### Optional Hardware
-| Qty | Item                        | Notes                                                                                                                                          |
-| --- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | M3 Heatset Insert           | Sherpa-Mini and G2 / WristWatch front plate attachment                                                                                         |
-| 1   | M3 Heatset Insert           | DFA Custom bottom                                                                                                                              |
-| 2   | M2 x 10 self tapping screws | X End stop                                                                                                                                     |
-| 1   | LED harness                 | 1x RGB Neopixel LEDs, and <br/> 2x RGB Sequin LEDs (0.8mm board thickness) <br/> 26 or 28 AWG wire. <br/> [Build instructions](led_harness.md)<br/>`Only compatible with the thin PCB board sequins.`<br/>`Known working sources:`<br/>RGBW: [LAB4450 (EU)](https://lab4450.com/product/rgbw-sequins/)<br/>RGBW: [Replimat[labs] (EU)](https://www.replimat.eu/4x-rgbw-sequins-for-xol-minisb/rt10179)<br/>RGBW: [JB3D.uk (UK)](https://jb3d.uk/product/rgbw-sequin-led-sk6812/)<br/>RGB:  [FYSETC (Ali Express)](https://www.aliexpress.com/item/1005006023213341.html) |
-
-<br/><br/><br/><br/>
-⬅ [README](README.md) - [Printed Parts](printing.md) ➡
+* [Monolith Gantry](https://github.com/CloakedWayne/Monolith_Gantry_V2-VT)
+* [OMC StepperOnline Nema17 Motors (55mm shaft)](https://www.omc-stepperonline.com/nema-17-high-temp-stepper-motor-55ncm-77-93oz-in-55mm-round-shaft-insulation-class-h-180c-17hs19-2504s-h-v1)

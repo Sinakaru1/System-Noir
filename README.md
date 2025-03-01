@@ -22,10 +22,13 @@ And of course, the Voron Team for their excellent base:
 <img src='docs/assets/images/Render_1.png' width=80% />
 <img src='docs/assets/images/Render_2.png' width=50% /> 
 <img src='docs/assets/images/Render_3.png' width=80% />
+<img src='docs/assets/images/Completed_Build_1.jpg' width=50% />
 
 
 * [More Images of Completed Build!](docs/assets/images)
-  
+
+
+
 Project lead: [Sinakaru1](https://github.com/Sinakaru1)
 
 This work is licensed under a

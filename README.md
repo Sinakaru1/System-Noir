@@ -12,6 +12,8 @@ Credit to the amazing people who designed the parts I used in this build:
 * Xol Toolhead: [Xol-Toolhead by Armchair Heavy Industries](https://github.com/Armchair-Heavy-Industries/Xol-Toolhead)
 * WristWatch G2 Extruder: [WristWatch-G2-Extruder by tetsu97](https://github.com/tetsu97/WristWatch-G2-Extruder)
 * PTFE Tube Guide Arm: [Voron Bowden ptfe tube guide arm by Galvanic](https://www.printables.com/model/978123-voron-bowden-ptfe-tube-guide-arm-and-canbus-cable)
+* LED Strip Holder: [LED Strip Holder for Voron 2.4](https://www.printables.com/model/84735-led-strip-holder-for-voron-24)
+* Carbon+HEPA Filters: [V2.4-Aire by VoronManiac](https://github.com/VoronManiac/V2.4-Aire/tree/main)
 
 And of course, the Voron Team for their excellent base:
 
